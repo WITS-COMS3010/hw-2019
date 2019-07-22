@@ -15,7 +15,7 @@ git clone https://github.com/WITS-COMS3010/hw-2019.git
 cd hw-2019/hw0
 ```
 
-Update the url of 'origin' to point to your private repository (replace student_number) and push:
+Update the url of 'origin' to point to your *uninitialised/empty* private repository (replace student_number) and push:
 ```
 git remote set-url origin https://github.com/WITS-COMS3010/student_number.git
 git push -u origin master
