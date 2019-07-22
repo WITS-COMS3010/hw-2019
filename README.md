@@ -41,7 +41,7 @@ repositories in the 'WITS-3010' GitHub organization:
    Each assignment will reside in a separate folder with skeleton code and a `README.md` containing the instructions.
    Right now, you are reading a `README.md` for hw-2019.
 
-   At the start of the course, your personal repository will be empty.
+   At the start of the course, your personal repository will be empty. **DO NOT initialise your empty repo by creating new files through github.com**
 
 ## Git Setup ##
 
