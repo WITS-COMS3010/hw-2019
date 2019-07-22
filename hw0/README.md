@@ -31,7 +31,7 @@ For this homework, you will be brushing up on your C skills and exploring how a 
 Part of this course requires you to solve problems independently. You are encouraged to consult the resources we link to and search the internet for any specific problems you encounter; Googling is a skill. Nevertheless, the teaching assistants are available should you get stuck.
 
 ### 2.1 make
-You probably used *gcc* to compile your programs from the command line in first year, but this grows tedious and complicated as the number of files you need to compile increases. Makefiles simplify the compilation process into a simple call to ```make```. If this is new to you, consult the following tutorial: [http://mrbook.org/blog/tutorials/make/](https://makefiletutorial.com/).
+You probably used *gcc* to compile your programs from the command line in first year, but this grows tedious and complicated as the number of files you need to compile increases. Makefiles simplify the compilation process into a simple call to ```make```. If this is new to you, consult the following tutorial: [https://makefiletutorial.com/](https://makefiletutorial.com/).
 First, create a file called "Makefile" in your hw0 directory and edit it. We have provided basic code below that compiles hello_world.c:
 ```make
 all: hello_world
