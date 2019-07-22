@@ -9,6 +9,7 @@
 ## 1 Git
 
 As stated [before](../README.md), to do this and all subsequent assignments, you need to have a GitHub account. Therefore, if you have not done so already, go to https://github.com/join, create an account and follow the instructions given [here](../README.md).
+
 To start working on this assignment, open a terminal, clone this repository into your local directory, and change to the directory "hw-2019/hw0" to access the files for this assignment:
 ```
 git clone https://github.com/WITS-COMS3010/hw-2019.git
@@ -28,7 +29,7 @@ If you open the url "https:&#8203;//github.com/WITS-COMS3010/student_number" in 
 ## 2 **Your assignment**
 
 For this homework, you will be brushing up on your C skills and exploring how a compiled executable is structured.  
-Part of this course requires you to solve problems independently. You are encouraged to consult the resources we link to and search the internet for any specific problems you encounter; Googling is a skill. Nevertheless, the teaching assistants are available should you get stuck.
+Part of this course requires you to solve problems independently. You are encouraged to consult the resources we link to and search the internet for any specific problems you encounter; **Googling is a skill**. Nevertheless, the teaching assistants are available should you get stuck.
 
 ### 2.1 make
 You probably used *gcc* to compile your programs from the command line in first year, but this grows tedious and complicated as the number of files you need to compile increases. Makefiles simplify the compilation process into a simple call to ```make```. If this is new to you, consult one of the following tutorials or documentation: [Intro to Make](http://matt.might.net/articles/intro-to-make/), [MakefileTutorial.com](https://makefiletutorial.com/), [GNU Make Documentation](https://www.gnu.org/software/make/manual/html_node/Introduction.html#Introduction).
