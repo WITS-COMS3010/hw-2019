@@ -55,20 +55,32 @@ form: [https://forms.gle/WQCtyhVMMhoLKdET9](https://forms.gle/WQCtyhVMMhoLKdET9)
 will not be able to submit any assignments if this is not done.**
 
 3. Before you can use GitHub on a campus computer, you need to configure
-Git to use the proxy server. Execute the following commands, replacing 'student_number' and 'password' with your CNS details:  
+Git to use the proxy server. Execute the following commands, replacing 'student_number' and 'password' with your CNS details:
+
+**NB: This needs to be done every time you use a wits/lab computer or 'vmuser'.**
+
+**NB: Make sure to clear your bash history if you are using a wits/lab computer or 'vmuser'.**
+
+```bash
+git config --global http.proxy 'http://students\<student_number>:password@proxyss.wits.ac.za:80'
+git config --global https.proxy 'https://students\<student_number>:password@proxyss.wits.ac.za:80'
+history -c
 ```
-git config --global http.proxy 'http://students\student_number:password@proxyss.wits.ac.za:80'
-git config --global https.proxy 'https://students\student_number:password@proxyss.wits.ac.za:80'  
-```
+
 NOTE: If you still get 407 errors, check whether you have special characters (@,:,!,#,$) in your password and try escape them with a backslash, e.g. '\\$'. If that doesn't work, substitute the special characters with their unicode equivalent, see <a href="http://www.cyberciti.biz/faq/unix-linux-export-variable-http_proxy-with-special-characters/">this link</a> for more details.
 
+NOTE: The above commands with the `--global` flag change your user's global git configuration at `~/.gitconfig` and would make the proxy settings permanent for your user. If you ommit `--global` the settings will only be changed for your current repository and override any conflicting global settings - *This is probably the way you want to do it on vmuser, as you have more control over your personal information*.
+
 4. Configure your GitHub username and email for commits:
+
+**NB: This needs to be done every time you use a wits/lab computer.**
+
 ```
-git config --global user.name "Your username"
-git config --global user.email "student_number@students.wits.ac.za"
+git config --global user.name "<github_username>"
+git config --global user.email "<student_number>@students.wits.ac.za"
 ```
 
-Further instructions will be provided in each of the homework folders. To get started with your first assignment, go to [hw0](./hw0).
+Further instructions will be provided in each of the homework folders, but remember to complete the above steps when needed. To get started with your first assignment, go to [hw0](./hw0).
 
 ## Academic Integrity
 
