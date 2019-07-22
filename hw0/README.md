@@ -79,11 +79,11 @@ Make sure you changed the url of 'origin' in section 1, otherwise the push will 
 ### 2.3 Hello, World
 There are several differences between C and C++, most notably in string handling and IO. For example:
 ```C
-int val = 2001;
+int val = 3010;
 char word[] = "student";
 printf("I am a %s doing COMS%d\n",word,val);
 ```  
-The formatting options presented above are string (%s) and signed integer (%d). Also note that there are no built-in string objects in C, you use null-terminated char arrays. We have listed several tutorials and reference sites for C at http://www.cs.wits.ac.za/~dmitry/coms2001/resources.html that you should consult for techniques such as string and file handling.
+The formatting options presented above are string (%s) and signed integer (%d). Also note that there are no built-in string objects in C, you use null-terminated char arrays. We have listed several tutorials and reference sites for C at https://wits-coms3010.github.io/resources.html that you should consult for techniques such as string and file handling.
 
 - Open hello_world.c and look at how to manipulate strings using strcpy and strcat. Then, complete the program by making it print the length of the string.
 <br />
