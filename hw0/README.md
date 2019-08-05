@@ -173,7 +173,7 @@ executable than meets the eye. Let’s look down inside:
 You will see that it has several segments, names of functions and variables in your program correspond to labels with addresses or values, and the guts of everything is chunks of stuff within segments. While you are looking through the objdump, try and think about the following questions and put the answers in a file called 'objdump.txt':  
 1. What file format is used for this binary? What architecture is it compiled for?
 1. What are the names of segments you find?
-1. What segment contains wc (the function) and what is its address? (hint: ```objdump -w wc | grep wc```)
+1. What segment contains wc (the function) and what is its address? (hint: ```objdump -D wc | grep wc```)
 1. What about main?
 1. How do these correspond to what you observed in gdb when you were looking at the loaded, executing program?
 1. Do you see the stack segment anywhere? What about the heap? Explain.
