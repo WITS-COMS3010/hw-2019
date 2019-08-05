@@ -4,7 +4,7 @@
 ### This is an individual assignment
 ### FCOM: DOES **NOT** APPLY
 ### Points: 5% of your final grade
-### **Due: 5 August 2019, 11:59 PM**
+### **Due: 11 August 2019, 11:59 PM**
 
 ## 1 Git
 
